@@ -1,0 +1,101 @@
+body{
+	background-color: F3F4EB;
+	font-family: Tahoma, Verdana, sans-serif;
+	padding:0;
+	margin:0px;
+}
+.reservoir{
+	max-width: auto;
+	min-width: auto;
+}
+
+.main{
+	max-width:1050px;
+	min-width:395px;
+	margin: 20px auto 0;
+	background-color: white;
+	
+}
+
+.jumbotron { 
+    background-color: #03263E; /* granat */
+    color: #ffffff;
+	margin-top: 10px;
+	margin-bottom:0px;
+}
+.input-group{
+	z-index:1;
+}
+
+.navbar {
+    margin-bottom: 80px;
+    background-color: #C21120;
+    z-index: 1px;
+    border: 0;
+    font-size: 12px;
+    line-height: 1.42857143;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li.active a {
+    color: #F3F4EB !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent ;
+    color: #fff !important;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 200px; 
+  background-color:#741424;
+  color: white;
+}
+
+#last{
+	background-color:#03263E;
+	margin-top: 25px;
+	color:white;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+}
+h4, h3{
+	font-weight:bold;
+	
+}
+
+footer{
+	margin: 0px;
+	background-color:#C21120;
+	
+}
+footer p{
+	text-align:center;
+	color:white;
+	
+}
+#rc a{
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+	
+}
+hr{
+	border: 1px solid #C21120;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
