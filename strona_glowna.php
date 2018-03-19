@@ -1,8 +1,6 @@
 <?php
 session_start();
 
-
-
 if(!isset($_SESSION['loginin'])){
 	header('Location: index.php');
 	exit();
@@ -12,7 +10,6 @@ require_once 'polaczenie_db.php';
 if (isset($_GET['id'])){
 	$id = $_GET['id'];
 if($mysqli -> query("DELETE FROM kompedium WHERE kompedium_id ='$id' LIMIT 1")){
-
 
 						echo '<script type="text/javascript">'; 
 						echo 'alert("Pozycja została usunięta!");'; 
@@ -34,7 +31,6 @@ if($mysqli -> query("DELETE FROM kompedium WHERE kompedium_id ='$id' LIMIT 1")){
 	<script src="jq/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 	
 </head>
 <body>
